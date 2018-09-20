@@ -1,0 +1,28 @@
+
+h1 {text-align: center;
+justify-content: center;
+margin-top: auto;
+position: relative;}
+h2 {text-align: center;
+justify-content: center;
+margin-top: auto;
+position: relative;
+background-color: #FFC300;
+margin: 1em;
+color: #FFFFFF;}
+
+.link { color: #000000; } 
+.link:hover { color: #FFFFFF; }
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+video{align-items: center;}
+.output {
+    background: #eee;
+    position: relative;
+}
