@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+html, body {
+ margin:0;
+ padding:0;
+}
 h1 {text-align: center;
 
-margin-top: auto;
+
 position: relative;
 font-family: 'Fredoka One', cursive;}
 
 
-
-svg:hover abeille { transform: rotate(17.7deg) translatey(-70px);
-
-}
 h2 {text-align: center;
-
-margin-top: auto;
-position: relative;
+position:relative;
 background-color: #FFC300;
 background-size: cover;
 color: #FFFFFF;
@@ -26,6 +25,7 @@ nav img {
 
   max-width: 200px;
 align-content: center;
+
 }
 
 nav ul {
@@ -39,39 +39,68 @@ nav li { 
  display: inline;
  flex-direction: column;
  align-items: center;
-}
+padding-bottom: 1em}
 
 nav li span {
   display: block;
 }
 
-li{
 
-  background-color: #FFC300;
+p {text-align: center;
 
-  margin: 1em;}
+
+position: relative;
+background-size: cover;
+color: #FFFFFF;
+font-family: 'Fredoka One', cursive;}
+
+
+li{margin: 1em;}
 
 .link { color: #000000; }
 .link:hover { color: #FFFFFF; }
-
-
-img {
-    width: 100%;
-    height: auto;
-    float:left;
-    margin: auto;
+.link2:hover { opacity: 0}
+.class1:hover{background-image: url(ruche2.svg);
+     max-width: 200px;
+    position: relative; background-repeat: no-repeat;
 }
 
+.class2:hover{background-image: url(trouverfleur2.svg);
+     max-width: 200px;
+     background-repeat: no-repeat;
 }
+
+.class3:hover{background-image: url(fleursfleurs2.svg);
+     max-width: 200px;
+    position: relative; background-repeat: no-repeat;
+}
+.class4:hover{background-image: url(retourruche2.svg);
+     max-width: 200px;
+    position: relative; background-repeat: no-repeat;
+}
+
+span{position: relative;}
+
+
+
+
+
 footer {
     font-size: .8rem;
-    position: absolute;
+
     bottom: 10px;
     right: 10px;
 }
 
-video{align-items: center;}
-.output {
-    background: #eee;
-    position: relative;
+#video
+{
+position: relative;
+z-index: 1;
+text-align: center;
+  font-size: 1em;
+  justify-content: space-around;
+  margin-top: auto;
+  align-items: center;}
 }
+
+.bouton2 {max-width: 400px;}
