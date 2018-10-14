@@ -45,12 +45,12 @@ nav li span {
   display: block;
 }
 
-img{width: 100%}
+img{width: 100%;margin:0;
+padding:0; margin-bottom: 0;
+display: flex;}
+.img {background-size: cover;}
 p {text-align: center;
 
-
-position: relative;
-background-size: cover;
 color: #FFFFFF;
 font-family: 'Fredoka One', cursive;}
 
